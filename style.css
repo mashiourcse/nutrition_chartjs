@@ -47,6 +47,8 @@ body{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    position: relative;
+    top: -89px;
 }
 
 
@@ -90,4 +92,70 @@ body{
 
 .form-container input[type="submit"]:hover {
     background-color: #45a049;
+}
+
+/* Small devices (phones, 576px and below) */
+@media only screen and (max-width: 576px) {
+    .container{
+        height: auto;
+        /* margin: 15px 15px; */
+        width: 346px;
+        /* padding: 20px; */
+        border: 1px solid rgb(200, 191, 191);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0px;
+        border-radius: 10px;
+        /* justify-content: center; */
+    }
+    .chart {
+        max-width: 900px;
+        height: 450px;
+        width: 374px;
+        padding: 50px;
+        margin: 0 auto;
+        position: relative;
+        left: -43px;
+    }
+}
+
+/* Medium devices (tablets, 768px and below) */
+@media only screen and (max-width: 768px) {
+  
+}
+
+/* Large devices (desktops, 992px and below) */
+@media only screen and (max-width: 992px) {
+   
+}
+
+/* Extra large devices (large desktops, 1200px and below) */
+@media only screen and (max-width: 1200px) {
+    
+}
+
+/* Extra small devices (phones, 576px and below) */
+@media only screen and (max-width: 576px) {
+    /* Add styles specific to extra small devices */
+}
+
+/* Small devices (landscape phones, 576px and below) */
+@media only screen and (max-width: 576px) and (orientation: landscape) {
+    /* Add styles specific to small landscape devices */
+}
+
+/* Medium devices (tablets, 768px and below) */
+@media only screen and (max-width: 768px) {
+    /* Add styles specific to medium devices */
+}
+
+/* Large devices (desktops, 992px and below) */
+@media only screen and (max-width: 992px) {
+    /* Add styles specific to large devices */
+}
+
+/* Extra large devices (large desktops, 1200px and below) */
+@media only screen and (max-width: 1200px) {
+    /* Add styles specific to extra large devices */
 }
