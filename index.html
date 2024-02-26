@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Chart.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+    <div class="container">
+        <!-- <div class="chart_types">
+                <button onclick="setChartType('bar')">Bars</button>
+                <button onclick="setChartType('line')">Line</button>
+                <button onclick="setChartType('doughnut')">Doughnut</button>
+                <button onclick="setChartType('polarArea')">Polar Area</button>
+                <button onclick="setChartType('radar')">Radar</button>
+    
+            </div> -->
+        <div class="chart">
+          
+            <canvas id="myChart"></canvas>
+          </div>
+          <div class="input-data">
+            <div class="form-container">
+                <form id="nutrition-form">
+                    <div class="input-group">
+                        <label for="budget" id="budget-text">Budget($):</label>
+                        <input type="number" id="budget" name="budget" length="5"><br>
+                    </div>
+                    <div class="input-group">
+                        <label for="proteins">Proteins(%):</label>
+                        <input class="nutrition" type="number" id="proteins" name="proteins" width="5"><br>
+                    </div>
+                    <div class="input-group">
+                        <label for="fats">Fats(%):</label>
+                        <input class="nutrition" type="number" id="fats" name="fats" width="5"><br>
+                    </div>
+                    <div class="input-group">
+                        <label for="carbs">Carbs(%):</label>
+                        <input class="nutrition" type="number" id="carbs" name="carbs" width="5"><br>
+                    </div>
+                    <div class="input-group">
+                        <label for="vitamins">Vitamins(%):</label>
+                        <input class="nutrition" type="number" id="vitamins" name="vitamins" width="5"><br>
+                    </div>
+                    <div class="input-group">
+                        <label for="minerals">Minerals(%):</label>
+                        <input class="nutrition" type="number" id="minerals" name="minerals" width="5"><br>
+                    </div>
+                    <div class="input-group">
+                        <label for="water">Water(%):</label>
+                        <input class="nutrition" type="number" id="water" name="water" width="5"><br>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+          </div>
+    </div>
+    
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="chart.js"></script>
+    <script src="formdata.js"></script>
+</body>
+</html>

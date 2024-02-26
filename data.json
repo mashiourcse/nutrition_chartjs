@@ -1,0 +1,14 @@
+[
+    {
+        "label": "%Nutrients",
+        "data": [
+            {"name": "Carbs", "value": 40},
+            {"name": "Proteins", "value": 35},
+            {"name": "Fats", "value": 25},
+            {"name": "Vitamins", "value": 20},
+            {"name": "Minerals", "value": 30},
+            {"name": "Water", "value": 50}
+        ]
+    }
+
+]
