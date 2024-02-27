@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: row;
     position: relative;
-    left: 591px;
+    /* left: 591px; */
     border-radius: 10px;
     /* justify-content: center; */
 }
